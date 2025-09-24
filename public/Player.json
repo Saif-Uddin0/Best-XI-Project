@@ -1,0 +1,122 @@
+[
+  {
+    "player_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Shakib_Al_Hasan_%284%29_%28cropped%29.jpg/250px-Shakib_Al_Hasan_%284%29_%28cropped%29.jpg",
+    "player_name": "Shakib Al Hasan",
+    "player_country": "Bangladesh",
+    "playing_role": "All-rounder",
+    "rating": 4.9,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm orthodox",
+    "price": "$230,000"
+  },
+  {
+    "player_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Tamim_Iqbal_Khan.jpg/250px-Tamim_Iqbal_Khan.jpg",
+    "player_name": "Tamim Iqbal",
+    "player_country": "Bangladesh",
+    "playing_role": "Opening batter",
+    "rating": 4.7,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "N/A",
+    "price": "$180,500"
+  },
+  {
+    "player_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Mushfiqur_Rahim_2018_%28cropped%29.jpg/250px-Mushfiqur_Rahim_2018_%28cropped%29.jpg",
+    "player_name": "Mushfiqur Rahim",
+    "player_country": "Bangladesh",
+    "playing_role": "Wicket-keeper batter",
+    "rating": 4.6,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Occasional leg break",
+    "price": "$142,300"
+  },
+  {
+    "player_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Liton_Das_%283%29_%28cropped%29.jpg/250px-Liton_Das_%283%29_%28cropped%29.jpg",
+    "player_name": "Litton Das",
+    "player_country": "Bangladesh",
+    "playing_role": "Wicket-keeper batter",
+    "rating": 4.5,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "N/A",
+    "price": "$130,750"
+  },
+  {
+    "player_img": "https://upload.wikimedia.org/wikipedia/commons/7/75/Najmul_Hossain_Shanto.jpg",
+    "player_name": "Najmul Hossain Shanto",
+    "player_country": "Bangladesh",
+    "playing_role": "Middle-order batter",
+    "rating": 4.4,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "N/A",
+    "price": "$95,200"
+  },
+  {
+    "player_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Mahbub_Ali_Zaki_with_Taskin_Ahmed.jpg/120px-Mahbub_Ali_Zaki_with_Taskin_Ahmed.jpg",
+    "player_name": "Taskin Ahmed",
+    "player_country": "Bangladesh",
+    "playing_role": "Fast bowler",
+    "rating": 4.3,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm fast",
+    "price": "$168,400"
+  },
+  {
+    "player_img": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Mustafizur_Rahman_%281%29.jpg",
+    "player_name": "Mustafizur Rahman",
+    "player_country": "Bangladesh",
+    "playing_role": "Fast bowler",
+    "rating": 4.6,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm fast-medium",
+    "price": "$205,900"
+  },
+  {
+    "player_img": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Mahmudullah_Riyad_%281%29.jpg",
+    "player_name": "Mahmudullah Riyad",
+    "player_country": "Bangladesh",
+    "playing_role": "All-rounder / middle-order batter",
+    "rating": 4.4,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm off break",
+    "price": "$125,000"
+  },
+  {
+    "player_img": "https://upload.wikimedia.org/wikipedia/commons/8/83/Shoriful_Islam%2C_2024_%28cropped%29.jpg",
+    "player_name": "Shoriful Islam",
+    "player_country": "Bangladesh",
+    "playing_role": "Left-arm quick bowler",
+    "rating": 4.2,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm medium-fast",
+    "price": "$88,600"
+  },
+  {
+    "player_img": "https://upload.wikimedia.org/wikipedia/commons/9/90/ISN_00832%2C_Mohammad_Nabi.jpg",
+    "player_name": "Mohammad Nabi",
+    "player_country": "Afghanistan",
+    "playing_role": "All-rounder",
+    "rating": 4.5,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm off break",
+    "price": "$150,000"
+  },
+  {
+    "player_img": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Andre_Russell_%281%29.jpg",
+    "player_name": "Andre Russell",
+    "player_country": "West Indies (Jamaica)",
+    "playing_role": "Power-hitting all-rounder",
+    "rating": 4.8,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast",
+    "price": "$320,000"
+  },
+  {
+    "player_img": "https://upload.wikimedia.org/wikipedia/commons/4/41/Rangpur_Riders%2C_BPL_2025_-_Rangpur_Tour_1_%28cropped%29.jpg",
+    "player_name": "Nurul Hasan Sohan",
+    "player_country": "Bangladesh",
+    "playing_role": "Wicket-keeper batter",
+    "rating": 4.1,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "N/A",
+    "price": "$73,450"
+  }
+]
