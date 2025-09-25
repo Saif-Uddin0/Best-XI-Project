@@ -20,6 +20,7 @@ const PlayerCard = ({ player, availableBalance, setAvailableBalance, purchasedPl
             setisSelected(true)
             setAvailableBalance(availableBalance - playerPrice)
             setPurchasedPlayer([...purchasedPlayer , playerData])
+            toast('player selected successfully')
         }
     return (
         <div className='card bg-base-100 shadow-sm p-4'>
