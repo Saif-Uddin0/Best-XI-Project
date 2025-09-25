@@ -1,4 +1,5 @@
 import './App.css'
+import { ToastContainer } from 'react-toastify';
 import AvailablePlayer from './component/availablePlayer/availablePlayer'
 import SelectedPlayer from './component/selectedPlayers/selectedPlayer'
 import Navbar from './component/Navbar/Navbar'
@@ -12,9 +13,16 @@ const ftechPlayer = async () => {
 
 const playerPromise = ftechPlayer()
 function App() {
-  const [availableBalance , setAvailableBalance] = useState(1000000)
+  const [availableBalance , setAvailableBalance] = useState(10000000)
   const [toggle,setToggle] = useState(true)
   const [purchasedPlayer , setPurchasedPlayer] = useState([])
+
+  const removePlayer =(p) =>{
+    const pPrice= parseInt(p.price.split("$").join("").split(",").join(""))
+    const filtereData = purchasedPlayer.filter(ply => ply.player_name !== p.player_name)
+    setPurchasedPlayer(filtereData);
+    setAvailableBalance(availableBalance + pPrice)
+  }
   
   
   return (
@@ -37,12 +45,15 @@ function App() {
         setAvailableBalance={setAvailableBalance} 
          playerPromise={playerPromise}>
         </AvailablePlayer>
-      </Suspense>:<SelectedPlayer purchasedPlayer={purchasedPlayer}></SelectedPlayer>
+      </Suspense>:<SelectedPlayer
+       purchasedPlayer={purchasedPlayer}
+       removePlayer={removePlayer}
+       ></SelectedPlayer>
       }
       
 
       
-
+      <ToastContainer></ToastContainer>
     </>
   )
 }
